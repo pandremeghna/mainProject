@@ -1,0 +1,14 @@
+package project1;
+
+	public class LockMain {
+	public static void main(String[] args) {
+			
+			// Create "main" folder if not present in current folder structure
+			FileUsage.createMainFolderIfNotPresent("main");
+			
+			MainProject.printWelcomeScreen1("Lock","Meghna");
+			
+			HandlingOption.handleWelcomeScreenInput();
+		}
+	}
+	
